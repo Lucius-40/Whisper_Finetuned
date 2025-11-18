@@ -34,6 +34,21 @@ This project demonstrates the process of fine-tuning OpenAI's Whisper model for 
 ## How to Use
 1. Clone this repository.
 2. Install the required dependencies (see the notebook for details).
+
+## Requirements
+- `numpy==1.26.4`
+- `scikit-learn==1.3.2`
+- `protobuf==3.20.3`
+- `datasets==3.6.0`
+- `transformers==4.48.3`
+- `torchaudio`
+- `accelerate`
+- `evaluate`
+- `bitsandbytes`
+- `jiwer`
+- `SoundFile`
+- `python-Levenshtein`
+
 3. Run the notebook `Fine_tuning_base.ipynb` step by step.
 
 ## Credits
