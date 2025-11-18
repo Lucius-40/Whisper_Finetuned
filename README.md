@@ -14,12 +14,15 @@ This project demonstrates the process of fine-tuning OpenAI's Whisper model for 
 
 2. **Data Augmentation**
    - Applied various augmentation techniques to increase dataset diversity and improve model robustness.
-   - **Note:** The data augmentation code was adapted from Zarif Mahir. [GitHub link to be added]
+   - **Note:** The data augmentation code was adapted from Zarif Mahir.    Github : https://github.com/zarifmahir
 
 3. **Model Fine-Tuning**
    - Loaded a pre-trained Whisper model.
    - Configured training parameters and callbacks.
    - Trained the model on the prepared dataset.
+
+### Base Model Metrics
+- The base version of the model shows a Levenshtein similarity of **0.87** and an approximate Word Error Rate (WER) of **20%**.
 
 4. **Evaluation**
    - Evaluated the fine-tuned model on validation/test data.
