@@ -72,3 +72,5 @@ The notebook `inference-notebook-ys.ipynb` provides a streamlined pipeline for r
 
 ## License
 See the `LICENSE` file for details.
+## Coming soon :
+Implementation of this task using wav2vec2
