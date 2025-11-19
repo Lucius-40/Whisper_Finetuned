@@ -14,7 +14,7 @@ This project demonstrates the process of fine-tuning OpenAI's Whisper model for 
 
 2. **Data Augmentation**
    - Applied various augmentation techniques to increase dataset diversity and improve model robustness.
-   - **Note:** The data augmentation code was adapted from Zarif Mahir.    Github : https://github.com/zarifmahir
+   
 
 3. **Model Fine-Tuning**
    - Loaded a pre-trained Whisper model.
@@ -68,7 +68,7 @@ The notebook `inference-notebook-ys.ipynb` provides a streamlined pipeline for r
 3. Run the notebook `Fine_tuning_base.ipynb` step by step.
 
 ## Credits
-- Data augmentation code adapted from Zarif Mahir. [Add GitHub link here]
+- Data augmentation code adapted from Zarif Mahir. https://github.com/zarifmahir
 
 ## License
 See the `LICENSE` file for details.
