@@ -31,6 +31,22 @@ This project demonstrates the process of fine-tuning OpenAI's Whisper model for 
 5. **Inference**
    - Demonstrated inference using the fine-tuned model on sample audio files.
 
+---
+
+## Inference Notebook
+
+The notebook `inference-notebook-ys.ipynb` provides a streamlined pipeline for running inference with the fine-tuned Whisper model. It is designed to be run in a Kaggle environment for compatibility and ease of use.
+
+- **Usage:**
+  - Load the notebook in Kaggle.
+  - Ensure the required dependencies are installed (see the notebook for details).
+  - The notebook will process `.wav` files in the specified test directory and generate a `submission.csv` file with transcriptions.
+
+- **Performance:**
+  - The normalized Levenshtein similarity score is **0.87** on the public dataset and **0.81** on the private dataset.
+
+---
+
 ## How to Use
 1. Clone this repository.
 2. Install the required dependencies (see the notebook for details).
